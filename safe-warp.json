@@ -1,0 +1,6 @@
+{
+    "log": "timewarp.log", 
+    "mode": "safe",
+    "threshold": 1024,
+    "volume": "/Volumes/tmb/Backups.backupdb/drbunsen/"
+}
