@@ -43,8 +43,8 @@ Setup Instructions
 
   **DO NOT CHANGE THE THRESHOLD VALUE UNLESS YOU FULLY UNDERSTAND THE CONSEQUENCES**. Setting the mode to `live` and changing the `threshold` value to a large size could potentially delete every backup on a Time Machine hard drive.
 
-* Move the provided plist file, `org.sbrown.timewarp.plist` to the LaunchAgents folder and change the owner:
+* Move the provided plist file, `org.drbunsen.timewarp.plist` to the LaunchAgents folder and change the owner:
 
-  `$ mv org.sbrown.timewarp.plist /Library/LaunchAgents/`  
-  `$ sudo chown root /Library/LaunchAgents/org.sbrown.timewarp.plist`  
-  `$ sudo launchctl load /Library/LaunchAgents/org.sbrown.timewarp.plist`
+  `$ mv org.drbunsen.timewarp.plist /Library/LaunchAgents/`  
+  `$ sudo chown root /Library/LaunchAgents/org.drbunsen.timewarp.plist`  
+  `$ sudo launchctl load /Library/LaunchAgents/org.drbunsen.timewarp.plist`
