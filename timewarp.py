@@ -22,7 +22,7 @@ import json
 def df(path):
     """ Return the free disk space (in Mb) at the specified path
     """
-    st = os.statvfs(path)
+    st = os.statvfs(path.encode('utf8'))
     free = (st.f_bavail * st.f_frsize) / 1024 / 1024
 
     return free
