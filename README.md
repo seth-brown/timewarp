@@ -3,7 +3,7 @@ Time Warp
 
 Time Machine Reservoir Sampler
 
-Time Warp is a tool for modifying Time Machine's backup behavior using weighted reservoir sampling. Please see [this blog post](http://www.drbunsen.org/time_warp/) for an explain of the project prior to setup and use.
+Time Warp is a tool for modifying Time Machine's backup behavior using sampling statistics.
 
 Requirements:
 ---------------
